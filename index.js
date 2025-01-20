@@ -15,8 +15,10 @@ function validate(e){
     
     if(!isEmail(inputValue)){
         error.Style.diaplay = "block"
+        label.style.display = "block"
     }  else {
         error.style.display = "none"
+        label.style.display = "none"
     }
 }
 
